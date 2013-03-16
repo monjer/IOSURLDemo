@@ -15,6 +15,9 @@ IOS中支持以下几种URL schemes
 * **Youtube links**
 * **iTunes links**
 
+打开这些URL的方式根据App的类型而分为两种  
+* **Native App**-->通过UIApplication的openURL:方式打开  
+* **Web App**-->通过点击或长按网页内嵌链接的方式打开
 
 参见:[Apple URL Scheme Reference](http://developer.apple.com/library/ios/#featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899)
 
